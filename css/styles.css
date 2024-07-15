@@ -660,7 +660,7 @@ button
     display: flex;
     align-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
 
     padding: 2rem 0 2rem 2rem;
@@ -683,6 +683,8 @@ button
     font-size: 14px;
 
     margin-top: .25rem;
+
+    white-space: nowrap;
 }
 
 
